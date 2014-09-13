@@ -1,7 +1,7 @@
-*{
+/*{
 	box-sizing: border-box;
 	@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
-}
+}*/
 body{
 	background-color: #3498db;
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -47,15 +47,30 @@ nav li{
 		height: 100px;
 		width: 150px;
 		margin: 0 auto;
+
+	
 }
 input{
 	padding: 10px;
 	border-radius: 3px 3px 3px;
+	width: 75px;
+	
 }
-button{
+button::-moz-focus-inner {
+    border:0;
+    padding:0;
+}
+.Buttons{
+	border: 2px solid rgb(230,126,34);
+	margin-top: 10px;
+}
+.Add, .Remove{
 	padding: 8px;
 	border-radius: 3px 3px 3px;
 	display: inline;
+	border: solid 2px #3498db;
+	margin-left: 3px;
+
 }
 .wrapper{
 	margin: 0 auto;
@@ -67,4 +82,10 @@ button{
 	height: 700px;
 	border-radius: 10px 10px 10px;
 	margin: 0 auto;
+}
+.clearfix{
+	clear:both;
+}
+.checkedItems{
+	display: none;
 }
