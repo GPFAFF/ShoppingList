@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+	@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+}
+body{
+	background-color: #3498db;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+header{
+	width: 100%;
+	background-color: rgb(230, 126, 34)
+}
+li{
+	color: #3498db;
+	font-weight: bold;
+	margin-top: 10px;
+}
+h1, h3{
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+	color: #3498db;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color: rgb(230, 126, 34);
+	font-weight: bold;
+}
+nav{
+	padding: 40px;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+	color: rgb(230, 126, 34);
+	font-weight: bold;
+
+}
+input{
+	padding: 10px;
+	border-radius: 3px 3px 3px;
+}
+button{
+	padding: 8px;
+	border-radius: 3px 3px 3px;
+}
+.wrapper{
+	margin: 0 auto;
+	text-align: center;
+}
+.to-do-list{
+	width: 50%;
+	background-color: rgb(230, 126, 34);
+	height: 400px;
+	border-radius: 10px 10px 10px;
+	margin: 0 auto;
+}
