@@ -1,3 +1,3 @@
-$(document).ready(fucntion(){
-	alert("were making shopping lists!");
+$(document).ready(function() {
+	console.log("were making shopping lists!");
 });

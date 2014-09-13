@@ -1,7 +1,7 @@
-/*{
+*{
 	box-sizing: border-box;
 	@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
-}*/
+}
 body{
 	background-color: #3498db;
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -46,9 +46,7 @@ nav li{
 .input-section{
 		height: 100px;
 		width: 150px;
-		margin: 0 auto;
-
-	
+		margin: 0 auto;	
 }
 input{
 	padding: 10px;
