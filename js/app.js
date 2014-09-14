@@ -1,3 +1,5 @@
-$(document).ready(function() {
-	console.log("were making shopping lists!");
-});
+$('.to-do-list').submit(function() {
+	// if($('input').val() ! == '') {
+			alert("#were making shopping lists!");
+				]]]]]]
+	});

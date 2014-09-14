@@ -59,16 +59,27 @@ button::-moz-focus-inner {
     padding:0;
 }
 .Buttons{
-	border: 2px solid rgb(230,126,34);
+	background-color: rgb(230,126,34);
 	margin-top: 10px;
 }
+
 .Add, .Remove{
-	padding: 8px;
+	padding: 10px;
 	border-radius: 3px 3px 3px;
 	display: inline;
-	border: solid 2px #3498db;
 	margin-left: 3px;
 
+}
+.Add:active, .Remove:active{
+	webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: 0px 9px 0px #3498db;
+        -moz-box-shadow: 0px 9px 0px #3498db;
+        box-shadow: 0px 6px 14px #3498db;
+        position: relative;
+        top: 7px;
 }
 .wrapper{
 	margin: 0 auto;
