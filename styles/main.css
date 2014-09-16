@@ -103,11 +103,21 @@ button::-moz-focus-inner {
 	height: auto;
 	width: 100px;
 }
-/*.checkedItems li{
-	font-size: 10px;
+.checkedItems li{
+	font-size: 20px;
 	text-align: center;
-	padding: 10px;
 	color: #3498db;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px black;
+}
+.checkedItems li:hover{
+	cursor: pointer;
+}
+footer{
+
+	padding: 40px;
+	color: rgb(230, 126, 34);
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
 }
