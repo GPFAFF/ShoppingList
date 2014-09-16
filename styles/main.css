@@ -96,5 +96,18 @@ button::-moz-focus-inner {
 	clear:both;
 }
 .checkedItems{
-	display: none;
+	
+}
+.highlight{
+	background: pink;
+	height: auto;
+	width: 100px;
+}
+/*.checkedItems li{
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	color: #3498db;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
 }
