@@ -88,9 +88,10 @@ button::-moz-focus-inner {
 .to-do-list{
 	width: 50%;
 	background-color: rgb(230, 126, 34);
-	height: 700px;
+	min-height: 700px;
 	border-radius: 10px 10px 10px;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 .clearfix{
 	clear:both;
@@ -100,7 +101,7 @@ button::-moz-focus-inner {
 }
 .highlight{
 	background: pink;
-	height: auto;
+	margin: 0 auto;
 	width: 100px;
 }
 .checkedItems li{

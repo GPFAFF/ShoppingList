@@ -21,19 +21,20 @@ $(document).ready(function() {
 	}
 
 
-$(document).ready(function(){
+
 	$(".Add").click(function(){
 		var toAdd = $("input[name=add-items]").val();
 			$("ul.checkedItems").append($("<div class='checkedItems'><li>"+toAdd+"</li></div>"));
 			$("input[name=add-items]").val("")
 		});
 				$(document).on('click', ".Remove", function(){
-  				$("ul.checkedItems").remove();
+  				$("ul.checkedItems li").remove();
   		})
-				$(document).on("dblclick",".checkedItems li",function(){
+				.on("dblclick",".checkedItems li",function(){
 				$(this).remove()
-				})
-		});
+			})
+				.on("click",".checkedItems li",function(){
+				$(this).toggleClass('highlight')
 	});
 
  
