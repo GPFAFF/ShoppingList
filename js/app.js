@@ -28,13 +28,14 @@ $(document).ready(function() {
 			$("input[name=add-items]").val("")
 		});
 				$(document).on('click', ".Remove", function(){
-  				$("checkedItems li").remove();
+  				$(".checkedItems li").remove();
   		})
 				.on("dblclick",".checkedItems li",function(){
 				$(this).remove()
 			})
 				.on("click",".checkedItems li",function(){
 				$(this).toggleClass('highlight')
+			})
 	});
 
  
