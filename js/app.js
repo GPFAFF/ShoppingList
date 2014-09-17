@@ -28,7 +28,7 @@ $(document).ready(function() {
 			$("input[name=add-items]").val("")
 		});
 				$(document).on('click', ".Remove", function(){
-  				$("ul.checkedItems li").remove();
+  				$("checkedItems li").remove();
   		})
 				.on("dblclick",".checkedItems li",function(){
 				$(this).remove()
